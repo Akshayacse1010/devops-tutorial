@@ -53,7 +53,7 @@ docker logs c2ba
 docker images
 docker container ls
 docker container ls -a
-docker container stop f708b7ee1a8b
+docker container stop f708b7ee1a8b ->also can use first substring
 docker run -d -p 5001:8080 in28min/hello-world-rest-api:0.0.1.RELEASE
 docker pull mysql
 docker search mysql
